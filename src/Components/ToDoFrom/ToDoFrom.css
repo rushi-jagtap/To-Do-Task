@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  align-items: center;
+  margin-top: 2rem;
+}
+
+button {
+  margin: 0px 15px 0px 15px;
+}
+
+input {
+  color: #e9edc9;
+}
+
+.heading > h1 {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading > h1 {
+    font-size: 2rem;
+  }
+}
